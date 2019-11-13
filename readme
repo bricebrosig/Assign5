@@ -2,4 +2,14 @@ Brice Brosig
 Programming Languages
 Assignment 6
 
-This is a readme.
+This prolog program solves the cracker barrel peg puzzle given the starting location of a peg.
+
+To run simple run swipl on your machine and import the pegs.pro file. 
+
+Then run puzzle(1). or puzzle(2), and so on. The printing is a little messy... The solution is to be read
+from bottom of the terminal to the top not including the dummy variables with underscores.
+
+If you have any questions about running this feel free to email me 
+bricebrosig@my.unt.edu
+
+Have fun!

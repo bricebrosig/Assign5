@@ -27,8 +27,8 @@ moves = (
 def step() :
   for m in moves :
     f,o,t = m
-    yield m
-    yield t,o,f
+    yield f+1,o+1,t+1
+    yield t+1,o+1,f+1
 
 # builds cells, 1 if full 0 if empty  
 # returns as a pair a count k of the full ones and the cells
